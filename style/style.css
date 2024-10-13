@@ -301,6 +301,262 @@
     border-radius: 5px;
     cursor: pointer;
 }
+/* choose container */
+.choose-container{
+    width: 1200px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.choose-content > h2{
+    text-align: center;
+}
+.choose-content > p{
+    text-align: center;
+    color: #131318;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 40px;
+    margin: 20px;
+    /* text-align: center; */
+}
+.card-1{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px 4px rgb(0, 0 , 0 , 0.2);
+}
+.card-2{
+    padding: 20px;
+    background-color: rgb(242, 239, 236);
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px 4px rgb(0, 0 , 0 , 0.2);
+
+}
+.card-3{
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    margin-left: 300px;
+    box-shadow: 3px 4px 4px 4px rgb(0, 0 , 0 , 0.2);
+}
+
+/* dea' & discount section */
+.discount-section{
+    width: 1200px;
+    margin-left: 200px;
+    margin-bottom: 1700px;
+}
+.deal-head{
+    text-align: center;
+    font-size: 40px;
+}
+.cox-container{
+    background-image: url('../deal&discount-img/Group\ 39.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 200px;
+    border-radius: 20px;
+}
+.cox-pacakage{
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left: 450px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 8px 30px rgba(0, 0, 0, 0.1);
+}
+.cox-pacakage h1{
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cox-pacakage p{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.sajek-container{
+    background-image:url('../deal&discount-img/Group\ 40.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 150%;
+    margin-top: 550px;
+}
+.sajek-pacakage{
+    width: 20%;
+    height: 30%;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left: 150px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 8px 30px rgba(0, 0, 0, 0.1);
+}
+.sajek-pacakage h1{
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sajek-pacakage p{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.bardarban-container{
+    background-image: url('../deal&discount-img/Group\ 39.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 200px;
+    margin-top: 1100px;
+}
+.bardarban-pacakage{
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left: 450px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 8px 30px rgba(0, 0, 0, 0.1);
+}
+.bardarban-pacakage h1{
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bardarban-pacakage p{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.book-btn{
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book-btn:hover{
+    opacity: 0.8;
+}
+.see-btn{
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 650px;
+    margin-bottom: 100px;
+}
+.see-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* subscribe section */
+.subscribe-section{
+    width: 1200px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 50px;
+}
+.subscribe-content{
+    border: 1px solid rgb(253, 55, 55);
+    height: 380px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+.subscribe-content p{
+    color: #131318;
+    width: 300px;
+}
+.subscribe-content input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    background-color: rgb(220, 235, 230);
+    margin-bottom: 30px;
+}
+.subcribe-btn{
+    width: 370px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+.subcribe-btn:hover{
+    opacity: 0.8;
+}
+.rectangle-img8{
+    position: relative;
+}
+.travle-com{
+    height: 60px;
+    width: 220px;
+    margin-top: -130px;
+    margin-left: 440px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    background-color: tomato;
+    transform: rotate(-30deg);
+}
+.travle-com p{
+    margin-bottom: 0px;
+}
+.travle-com h2{
+    margin-top: 0px;
+}
+
+
+/* footer section */
+.footer-container{
+    background-color: antiquewhite;
+    height: 400px;
+    padding-top: 80px;
+}
+.footer-container , .navbar-content{
+    text-align: center;
+    justify-content: center;
+}
+.footer-container p{
+    line-height: 25px;
+}
+.footer-icon img{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.hr{
+    width: 1000px; 
+    margin-bottom: 50px;
+}
+
 
 
 
@@ -396,5 +652,79 @@
     .card img{
         width: 100%;
         height: 70%;
+    }
+
+    /* choose section */
+    .choose-container{
+        width: 100%;
+        margin-left: 5px;
+    }
+    .card-container{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .card-3{
+        width: 85%;
+        margin-left: 19px;
+    }
+
+    /* offer section */
+    .discount-section{
+        width: 50%;
+        margin-left: 5px;
+    }
+    .cox-container{
+        width: 95%;
+    }
+    .cox-pacakage{
+        width: 50%;
+        height: 40%;
+        margin-left: 100px;
+    }
+    .sajek-container{
+        width: 95%;
+        border-radius: 15px;
+    }
+    .sajek-pacakage{
+        width: 50%;
+        height: 45%;
+        margin-left: 100px;
+    }
+    .bardarban-container{
+        width: 95%;
+        border-radius: 15px;
+    }
+    .bardarban-pacakage{
+        width: 50%;
+        height: 40%;
+        margin-left: 100px;
+    }
+    .see-btn{
+        margin-left: 150px;
+    }
+
+    /* subcribe section */
+    .subscribe-section{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .subscribe-content input{
+        width: 100%;
+    }
+    .subcribe-btn{
+        padding: 5px;
+        width: 100%;
+    }
+    .rectangle-img8{
+        width: 100%;
+    }
+    .travle-com{
+        margin-left: 290px;
+    }
+
+    /* footer section */
+    .hr{
+        width: 90%;
     }
 }
