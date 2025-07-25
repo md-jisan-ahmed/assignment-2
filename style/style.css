@@ -14,20 +14,11 @@
 }
 
 /* main style */
-.plant-card-container{
-  width: 270px;
-  height: 485px;
-}
 .btn-cart{
-  height: 50px;
-  width: 270px;
   color: white;
 }
 
-/* flower & plants lover */
-.flower-conatiner{
-  height: 597px;
-}
+
 
 /* flower img style */
 .bloom-img{

@@ -11,187 +11,187 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Assignment - 2</title>
 
 </head>
 <body>
-    <header class="w-[1440px]">
-        <nav>
-            <div class="flex justify-between w-6xl items-center m-10">
+    <header>
+        <nav class="mx-0 lg:mx-[120px]">
+            <div class=" flex justify-between w-[361px] lg:w-[1140px] items-center m-10">
                 <div>
                     <img class="w-30 h-15" src="img/logo.png" alt="">
                 </div>
-                <div class="flex gap-10">
-                    <a class="inter-text font-bold" href="">Home</a>
-                    <a class="inter-text text-slate-400" href="">Shop</a>
-                    <a class="inter-text text-slate-400" href="">About us</a>
-                    <div class="flex gap-2">
+                <div class=" link-container flex gap-10">
+                    <a class="inter-text font-bold hidden lg:inline-block" href="">Home</a>
+                    <a class=" inter-text text-slate-400 hidden lg:inline-block" href="">Shop</a>
+                    <a class="inter-text text-slate-400 hidden lg:inline-block" href="">About us</a>
+                    <div class="flex gap-2 items-center ">
                         <img class="w-8 h-7" src="img/shopping-cart.png" alt="">
                         <a href="">Cart   ( $56 ) </a>
                     </div>
                 </div>
             </div>
         </nav>
-        <section class="flex w-6xl ml-10 mr-10 mt-30 gap-5 ">
-            <div class="w-xl h-sm mt-35">
-                <h1 class="noto-serif-head text-6xl mb-5 font-bold">ALWAYS <span class="text-orange-400 ">FRESH FLOWERS</span></h1>
+        <section class="flex flex-col-reverse w-[600px] mx-5 lg:w-6xl lg:flex-row lg:mx-[170px] mt-30 gap-5 ">
+            <div class=" w-[361px] h-[147px] lg:w-[570px] lg:h-[299px] lg:mt-35"> 
+                <h1 class="noto-serif-head text-2xl lg:text-6xl mb-5 font-bold">ALWAYS <span class="text-orange-400 ">FRESH FLOWERS</span></h1>
                 <p class="text-neutral-400 inter-text ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
             <div>
-                <img class="w-xl h-xs" src="img/hero-flower.png" alt="">
+                <img class="w-[394px] h-[245px] lg:w-[570px] lg:h-[355px]" src="img/hero-flower.png" alt="">
             </div>
         </section>
     </header>
-    <main class="w-[1440px]">
-        <section class="ml-10 mr-10 mt-30 mb-30">
+    <main class=" w-[394px] lg:w-[1440px]">
+        <section class=" mr-4 lg:mx-[170px] mt-30 mb-10 lg:mb-30">
             <div>
-                <div class="justify-items-center">
-                    <h2 class="noto-serif-head text-4xl font-bold mb-5"> <span class="text-orange-400 ">Our </span>Plants</h2>
-                    <p class="text-neutral-400 inter-text mb-8 px-54 text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                <div class="items-center lg:justify-items-center">
+                    <h2 class="noto-serif-head text-4xl lg:text-5xl text-center font-bold mb-2 ml-10 lg:mb-5 lg:ml-0"> <span class="text-orange-400 ">Our </span>Plants</h2>
+                    <p class="text-neutral-400 inter-text mb-8 text-center ml-8 lg:ml-0 w-[370px] lg:px-54 lg:w-[930px] lg:text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
                 </div>
-                <div class="grid grid-cols-4 gap-x-20 gap-y-5">
-                    <div class="plant-card-container ">
+                <div class="ml-4 grid grid-cols-2          gap-x-10 lg:gap-x-50 gap-y-5 lg:grid-cols-4 lg:gap-x-20 lg:gap-y-5">
+                    <div class="w-[171px] h-[340px] lg:w-[270px] lg:h-[485px]">
                         <img class="mt-" src="img/sample-flower-image.png" alt="">
                         <div class="text-center mt-5">
                             <p class="inter-text">Lily Blossom</p>
                             <p class="inter-text font-bold mt-2 mb-4">20 USD</p>
                         </div>
-                        <button class="font-semibold bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
+                        <button class="font-semibold w-[171px] h-[50px] lg:h-[50px] lg:w-[270px] bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
                     </div>
-                    <div class="plant-card-container ">
+                    <div class="w-[171px] h-[340px] lg:w-[270px] lg:h-[485px]">
                         <img class="mt-" src="img/sample-flower-image.png" alt="">
                         <div class="text-center mt-5">
                             <p class="inter-text">Lily Blossom</p>
                             <p class="inter-text font-bold mt-2 mb-4">20 USD</p>
                         </div>
-                        <button class="font-semibold bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
+                        <button class="font-semibold w-[171px] h-[50px] lg:h-[50px] lg:w-[270px] bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
                     </div>
-                    <div class="plant-card-container ">
+                    <div class="w-[171px] h-[340px] lg:w-[270px] lg:h-[485px]">
                         <img class="mt-" src="img/sample-flower-image.png" alt="">
                         <div class="text-center mt-5">
                             <p class="inter-text">Lily Blossom</p>
                             <p class="inter-text font-bold mt-2 mb-4">20 USD</p>
                         </div>
-                        <button class="font-semibold bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
+                        <button class="font-semibold w-[171px] h-[50px] lg:h-[50px] lg:w-[270px] bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
                     </div>
-                    <div class="plant-card-container ">
+                    <div class="w-[171px] h-[340px] lg:w-[270px] lg:h-[485px]">
                         <img class="mt-" src="img/sample-flower-image.png" alt="">
                         <div class="text-center mt-5">
                             <p class="inter-text">Lily Blossom</p>
                             <p class="inter-text font-bold mt-2 mb-4">20 USD</p>
                         </div>
-                        <button class="font-semibold bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
+                        <button class="font-semibold w-[171px] h-[50px] lg:h-[50px] lg:w-[270px] bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
                     </div>
-                    <div class="plant-card-container ">
+                    <div class="w-[171px] h-[340px] lg:w-[270px] lg:h-[485px] ">
                         <img class="mt-" src="img/sample-flower-image.png" alt="">
                         <div class="text-center mt-5">
                             <p class="inter-text">Lily Blossom</p>
                             <p class="inter-text font-bold mt-2 mb-4">20 USD</p>
                         </div>
-                        <button class="font-semibold bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
+                        <button class="font-semibold w-[171px] h-[50px] lg:h-[50px] lg:w-[270px] bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
                     </div>
-                    <div class="plant-card-container ">
+                    <div class="w-[171px] h-[340px] lg:w-[270px] lg:h-[485px] ">
                         <img class="mt-" src="img/sample-flower-image.png" alt="">
                         <div class="text-center mt-5">
                             <p class="inter-text">Lily Blossom</p>
                             <p class="inter-text font-bold mt-2 mb-4">20 USD</p>
                         </div>
-                        <button class="font-semibold bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
+                        <button class="font-semibold w-[171px] h-[50px] lg:h-[50px] lg:w-[270px] bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
                     </div>
-                    <div class="plant-card-container ">
+                    <div class="w-[171px] h-[340px] lg:w-[270px] lg:h-[485px] ">
                         <img class="mt-" src="img/sample-flower-image.png" alt="">
                         <div class="text-center mt-5">
                             <p class="inter-text">Lily Blossom</p>
                             <p class="inter-text font-bold mt-2 mb-4">20 USD</p>
                         </div>
-                        <button class="font-semibold bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
+                        <button class="font-semibold w-[171px] h-[50px] lg:h-[50px] lg:w-[270px] bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
                     </div>
-                    <div class="plant-card-container ">
+                    <div class="w-[171px] h-[340px] lg:w-[270px] lg:h-[485px]">
                         <img class="mt-" src="img/sample-flower-image.png" alt="">
                         <div class="text-center mt-5">
                             <p class="inter-text">Lily Blossom</p>
                             <p class="inter-text font-bold mt-2 mb-4">20 USD</p>
                         </div>
-                        <button class="font-semibold bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
+                        <button class="font-semibold w-[171px] h-[50px] lg:h-[50px] lg:w-[270px] bg-orange-600 btn-cart cursor-pointer">ADD TO CART</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="ml-10 mr-10 mt-40 mb-30 w-[1140px]">
-            <div class="flower-conatiner flex gap-x-20 ">
+        <section class=" w-[394px] h-[648px] mt-5 mb-30 lg:mx-[170px] lg:mt-40 lg:mb-30 lg:w-[1440px] lg:[597px]">
+            <div class="flex flex-col ml-5 lg:flex-row lg:h-[597px] lg:gap-x-20 ">
                 <div>
-                    <img class="relative" src="img/flower-store.png" alt="">
-                    <img class="absolute mt-[-710px] ml-[350px] w-[286px] h-[286px]" src="img/trusted-badge.png" alt="">
+                    <img class=" lg:relative" src="img/flower-store.png" alt="">
+                    <img class="hidden lg:block lg:absolute mt-[-710px] ml-[350px] w-[286px] h-[286px]" src="img/trusted-badge.png" alt="">
                 </div>
-                <div class="my-15">
-                    <h2 class="noto-serif-head text-4xl font-bold mb-5 w-[300px]">Flower & Plants Lover</h2>
+                <div class="my-15 h-[234px] lg:h-[521px]">
+                    <h2 class="noto-serif-head text-2xl lg:text-4xl font-bold mb-5 w-[300px]">Flower & Plants Lover</h2>
                     <ul>
-                        <li class="inter-text text-neutral-400 w-[450px] mb-4 text-xl">-> Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                        <li class="inter-text text-neutral-400 w-[450px] mb-4 text-xl">-> Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                        <li class="inter-text text-neutral-400 w-[450px] mb-4 text-xl">-> Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                        <li class="inter-text text-neutral-400 w-[361px] lg:w-[450px] mb-4 text-sm lg:text-xl">-> Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                        <li class="inter-text text-neutral-400 w-[361px] lg:w-[450px] mb-4 text-sm lg:text-xl">-> Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                        <li class="inter-text text-neutral-400 w-[361px] lg:w-[450px] mb-4    text-sm lg:text-xl">-> Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     </ul>
                 </div>
             </div>
         </section>
-        <section class="ml-10 mr-10 mb-30 w-[1140px] justify-items-center">
+        <section class=" ml-5 text-center mb-20 lg:ml-10 lg:mr-10 lg:mb-30 w-[394px] lg:w-[1440px] lg:justify-items-center">
             <h2 class="noto-serif-head text-5xl mb-5 font-bold"><span class="text-orange-400 ">Latest </span> Deals</h2>
-            <p class="text-neutral-400 inter-text mb-15 px-54 text-center text-xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-            <div class="flex gap-8">
+            <p class="text-neutral-400 inter-text mb-15    px-0 text-center lg:px-54 text-center text-xl lg:text-xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <div class="flex flex-col lg:flex-row gap-8">
                 <div>
-                    <div class="bloom-img w-[367px] h-[202px] relative rounded-xl">
+                    <div class="bloom-img w-[361px] h-[185px] lg:w-[367px] lg:h-[202px] relative rounded-xl">
                         <div class="absolute mt-[70px]">
                             <p class="noto-serif-head font-blod text-stone-50 text-xl mx-[60px] mb-3">60% OFF | Bloom Plant</p>
                             <a class="inter-text font-semiblod text-stone-50 mx-[118px] underline" href="">Shop Now</a>
                         </div>
                     </div>
-                    <div class="ana-img w-[367px] h-[202px] relative  rounded-xl">
+                    <div class="ana-img w-[361px] h-[185px] lg:w-[367px] lg:h-[202px] relative  rounded-xl">
                         <div class="absolute mt-[70px]">
                             <p class="noto-serif-head font-blod text-stone-50 text-xl mx-[60px] mb-3">30% OFF | Ana Plant</p>
                             <a class="inter-text font-semiblod text-stone-50 mx-[118px] underline" href="">Shop Now</a>
                         </div>
                     </div>
                 </div>
-                <div class=" zabo-img relative w-[753px] h-[424px] rounded-xl">
-                    <div class="absolute mt-[180px] mx-[180px] ">
-                        <p class="noto-serif-head font-blod text-4xl mb-2 text-stone-50">25% OFF | Zabo Plant</p>
-                        <a class="inter-text font-semibold text-2xl mx-[100px] text-stone-50 underline" href="">Shop Now</a>
+                <div class=" zabo-img relative w-[361px] h-[185px] lg:w-[753px] lg:h-[424px] rounded-xl">
+                    <div class="absolute mt-[50px] lg:mt-[180px] mx-[60px] lg:mx-[180px] ">
+                        <p class="noto-serif-head font-blod text-xl lg:text-4xl mb-2 text-stone-50">25% OFF | Zabo Plant</p>
+                        <a class="inter-text font-semibold text-xl lg:text-2xl mx-[30px] lg:mx-[100px] text-stone-50 underline" href="">Shop Now</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class=" mb-20">
-            <div class="news-letter-container w-[1440px] h-[533px] bg-cover bg-center justify-items-center px-[250px] py-[200px]">
-                <h2 class="font-blod text-5xl noto-serif-head text-stone-100 mb-8">Join the colorful Bunch</h2>
+        <section class=" mb-20 ">
+            <div class="news-letter-container w-[400px] h-[277px] pt-20 px-0 lg:w-[1440px] lg:h-[533px] bg-cover bg-center lg:bg-cover lg:bg-center justify-items-center lg:px-[250px] lg:pt-[199px] py-[200px]">
+                <h2 class="font-blod text-xl lg:text-5xl noto-serif-head text-stone-100 mb-8">Join the colorful Bunch</h2>
                 <div class="flex gap-0">
-                    <input class="w-[644px] h-[50px] bg-stone-50 p-5" type="email" name="" placeholder="Write Email" id="">
+                    <input class=" w-[218px] h-[50px] lg:w-[644px] lg:h-[50px] bg-stone-50 p-5" type="email" name="" placeholder="Write Email" id="">
 
-                    <button class="inter-text w-[186px] h-[50px] bg-orange-600 font-semiblod text-stone-50 cursor-pointer">Subscribe</button>
+                    <button class="inter-text w-[103px] lg:w-[186px] h-[50px] bg-orange-600 font-semiblod text-stone-50 cursor-pointer">Subscribe</button>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="w-[1440px]">
-        <section class="w-[1120px] h-[250px] mx-[160px] my-[50px]">
-            <div class="flex">
+    <footer class="w-[394px] lg:w-[1440px]">
+        <section class="w-[394px] lg:w-[1120px] h-[865px] lg:h-[250px] mx-2 lg:mx-[160px] my-[50px]">
+            <div class="flex flex-col lg:flex-row">
                 <div class="mr-[100px] w-[359px]">
                     <img class="w-[135px] h-[82px] mb-4" src="img/logo.png" alt="">
                     <p class="font-xl text-neutral-400 inter-text ">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
                 </div >
                 <div class="flex flex-col mr-[110px]">
-                    <a class="inter-text text-gray-500 mb-5" href="">Home</a>
+                    <a class="inter-text text-gray-500     mt-5 mb-4 lg:mt-0 lg:mb-5" href="">Home</a>
                     <a class="inter-text text-gray-500 mb-5"  href="">About us</a>
                     <a class="inter-text text-gray-500 mb-5"  href="">Blog</a>
                     <a class="inter-text text-gray-500 mb-5"  href="">FAQ</a>
-                    <a class="inter-text text-gray-500 "  href="">Contact Us</a>
+                    <a class="inter-text text-gray-500 mb-4 lg:mt-0 lg:mb-5"  href="">Contact Us</a>
                 </div>
                 <div class="flex flex-col  mr-[90px]">
                     <a class="inter-text text-gray-500  mb-5"  href="">Features</a>
                     <a class="inter-text text-gray-500 mb-5"  href="">Pricing</a>
                     <a class="inter-text text-gray-500 mb-5"  href="">Privacy Policy</a>
                     <a class="inter-text text-gray-500 mb-5"  href="">Team Of service</a>
-                    <a class="inter-text text-gray-500 "  href="">Help center</a>
+                    <a class="inter-text text-gray-500 mb-4 lg:mb-5"  href="">Help center</a>
                 </div>
                 <div class="flex gap-8">
                     <img class="h-[32px] w-[32px] " src="img/icon-linkedin.png" alt="">
