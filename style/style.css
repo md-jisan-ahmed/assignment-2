@@ -28,3 +28,21 @@
 .flower-conatiner{
   height: 597px;
 }
+
+/* flower img style */
+.bloom-img{
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url('../img/deal-bloom.png') ;
+  margin-bottom: 20px;
+  
+}
+.ana-img{
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url('../img/deal-ana.png');
+}
+.zabo-img{
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url('../img/deal-zabo.png');
+  
+}
+/* news-letter-container */
+.news-letter-container{
+  background-image: url('../img/news-letter-bg.png');
+}
